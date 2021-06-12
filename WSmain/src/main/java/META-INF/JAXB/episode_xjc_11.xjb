@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par Eclipse Implementation of JAXB, v2.3.3 
+Voir https://eclipse-ee4j.github.io/jaxb-ri 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2021.05.22 à 01:22:24 PM CEST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.tekup.de/soap/models/whitetest">
+    <schemaBindings map="false">
+      <package name="de.tekup.soap.models.whitetest"/>
+    </schemaBindings>
+    <bindings scd="tns:StudentRequest">
+      <class ref="de.tekup.soap.models.whitetest.StudentRequest"/>
+    </bindings>
+    <bindings scd="tns:ExamsRequest">
+      <class ref="de.tekup.soap.models.whitetest.ExamsRequest"/>
+    </bindings>
+    <bindings scd="tns:WhiteTestResponse">
+      <class ref="de.tekup.soap.models.whitetest.WhiteTestResponse"/>
+    </bindings>
+    <bindings scd="~tns:Student">
+      <class ref="de.tekup.soap.models.whitetest.Student"/>
+    </bindings>
+    <bindings scd="~tns:Exam">
+      <class ref="de.tekup.soap.models.whitetest.Exam"/>
+    </bindings>
+    <bindings scd="tns:ExamsDisponibleResponse">
+      <class ref="de.tekup.soap.models.whitetest.ExamsDisponibleResponse"/>
+    </bindings>
+    <bindings scd="~tns:Adress">
+      <class ref="de.tekup.soap.models.whitetest.Adress"/>
+    </bindings>
+  </bindings>
+</bindings>
+
